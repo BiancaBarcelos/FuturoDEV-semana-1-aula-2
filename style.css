@@ -1,0 +1,13 @@
+section {
+    max-width: 1200px;
+    margin: auto;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    max-width: 300px;
+}
+#btn {
+    margin-top: 10px;
+}

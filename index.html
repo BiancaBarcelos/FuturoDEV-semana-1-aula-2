@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sistema de Cadastro de Carros</title>
+</head>
+<body>
+    <section>
+        <h1>Cadastro Carro</h1>
+        <div class="formulario">
+            <form action="">
+                <div class="formulario">
+                    <label for="modelo"> Qual a modelo do carro? </label>
+                    <input class="formulario" type="text" id="modelo" name="modelo" placeholder="Digite o modelo do carro">
+                </div>
+                <div class="formulario">
+                    <label for="marca"> Qual a marca do carro? </label>
+                    <input class="formulario" type="text" id="marca" name="marca" placeholder="Digite a marca do carro">
+                </div>
+                <div class="formulario">
+                    <label for="cor"> Qual a cor do carro? </label>
+                    <input class="formulario" type="text" id="cor" name="cor" placeholder="Digite a cor do carro">
+                </div>
+                <div class="formulario">
+                    <label for="placa"> Qual a placa do carro? </label>
+                    <input class="formulario" type="text" id="placa" name="placa" placeholder="Digite o placa do carro">
+                </div>
+                <div class="formulario">
+                    <label for="ano"> Qual a ano do carro? </label>
+                    <input class="formulario" type="number" id="ano" name="ano" placeholder="Digite o ano do carro">
+                </div>
+                <button id="btn" onclick="cadastrarCarro(event)" type="submit">Cadastrar</button>
+            </form>
+            <p id="frase"></p>
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
